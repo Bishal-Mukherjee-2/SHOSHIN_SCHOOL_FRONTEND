@@ -1,0 +1,92 @@
+.upper {
+  height: 70%;
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.upperInner {
+  
+}
+
+.upperHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 1.5rem;
+}
+
+.upperdesc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem;
+}
+
+.lower {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-flow: column;
+  background: linear-gradient(349.78deg, #00c996 -17.21%, #003d4d 116.61%);
+}
+
+.lowerInner {
+  display: flex;
+  /* align-content: space-between; */
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.lowerDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstDetail {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+}
+
+.secondDetail {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+}
+
+.sideIcon {
+  padding-right: 0.7rem;
+}
+
+.sideDetail {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.lowerButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.ViewButton {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-right: 1rem;
+}
+
+.viewArrow {
+}

@@ -1,0 +1,155 @@
+.run {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161d22;
+  /* border-top: 2px solid #425364;
+    border-left: 2px solid #425364;
+    border-bottom: 2px solid #425364; */
+}
+
+.toogle {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  margin-right: 1rem;
+  padding: 0.78rem;
+  width: 12rem;
+  background-color: #161d22;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 1rem;
+  font-size: 16px;
+}
+
+.leftPannelContainer {
+  box-sizing: border-box;
+  background-color: white;
+
+  overflow-y: hidden;
+
+  padding: 0px 35px ;
+  overflow-y: scroll;
+  /* border-left: 2px solid #425364;
+    border-right: 2px solid #425364; */
+}
+
+.problemStatement {
+  display: flex;
+  flex-direction: column;
+  font-family: Muli, sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.problemName {
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0.44px;
+  font-weight: 800;
+  font-family: Muli, sans-serif;
+  display: block;
+}
+
+.problemDescription {
+  padding-top: 30px;
+  display: block;
+}
+
+.doubt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #11191e;
+  height: 50px;
+
+  color: #8197a4;
+
+  background-color: #161c22;
+  border: 2px solid #0f1318;
+  border-left: 2px solid #f78169;
+}
+
+.extendedIcon {
+  color: #818b94;
+}
+
+h4.question {
+  font-size: 12px;
+  font-weight: 500;
+  color: #818b94;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  padding-bottom: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+pre {
+  margin: 10px 0 20px;
+  color: #000000;
+
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  /* padding: 15px 18px; */
+  padding: 28px 44px 28px 44px;
+  font-weight: 600;
+  overflow-x: hidden;
+  max-width: 866px;
+  white-space: pre-wrap;
+  font-family: Muli, sans-serif;
+}
+
+.color1 {
+  background-color: rgba(151, 150, 240, 0.12);
+}
+
+.color2 {
+  background-color: rgba(250, 152, 64, 0.12);
+}
+
+.color3 {
+  background-color: rgba(25, 104, 107, 0.12);
+}
+
+code {
+  font-weight: 545;
+  letter-spacing: 0.23px;
+  color: #838d95;
+  font-size: 12px;
+  font-family: Muli, sans-serif;
+  white-space: pre-wrap;
+}
+
+.copy {
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 0.8rem;
+    padding-left: 0.6rem;
+  }
+  .toogle {
+    margin-right: 0;
+    width: 10rem;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+  }
+  /* .active {
+        margin-right: 1rem;
+    }
+    .normal {
+        margin-right: 1rem;
+    } */
+  .code {
+    height: 95.6%;
+  }
+  .submit {
+    width: 4rem;
+    height: 1.8rem;
+  }
+}

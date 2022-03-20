@@ -1,0 +1,90 @@
+.headingStrip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headingStripWidth {
+  width: 70%;
+}
+
+.content {
+  padding: 1rem 0 1.5rem 2rem;
+}
+
+.pad-R-1 {
+  padding-right: 1rem;
+}
+
+.mar-t-1 {
+  margin-top: 1rem;
+}
+
+.mar-t-2 {
+  margin-top: 2rem;
+}
+
+.mar-t-3 {
+  margin-top: 3rem;
+}
+
+.courseHeading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.sideDetail {
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+}
+
+.sideIcon {
+  padding-right: 0.7rem;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  border-radius: 40px;
+  width: 14rem;
+  height: 40px;
+  border: none;
+  outline: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.dark {
+  background: #19686b;
+  color: #ffffff;
+}
+
+.progress {
+  padding: 1rem;
+  padding-top: 2rem;
+  text-align: right;
+  width: 30%;
+  clip-path: polygon(45% 0, 100% 0, 100% 100%, 10% 100%);
+  background: linear-gradient(229.57deg, #9796f0 -11.47%, #fbc7d4 76.84%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}

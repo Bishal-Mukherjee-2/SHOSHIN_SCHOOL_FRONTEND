@@ -1,0 +1,67 @@
+.leftOuter {
+  width: 80%;
+  position: relative;
+}
+
+.leftContainer {
+  padding: 1rem 1rem 1rem 1.7rem;
+}
+.container {
+  display: flex;
+}
+
+.ModuleHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 17px;
+  margin-bottom: 1rem;
+  color: #747474;
+}
+
+.deadline {
+  display: flex;
+  flex-direction: row;
+}
+
+.deadlineHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.7rem;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ff0000;
+}
+
+.deadlineIcon {
+  margin-left: 1rem;
+}
+
+.rightContainer {
+  padding: 1rem;
+  
+  text-align: center;
+}
+
+.ModuleClass {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.ModuleIcon {
+}
+
+.progress {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}

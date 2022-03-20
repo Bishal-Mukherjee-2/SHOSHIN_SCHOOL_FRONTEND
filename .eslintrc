@@ -1,0 +1,54 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "keyword-spacing": [0],
+    "react/jsx-curly-spacing": [0],
+    "react/jsx-boolean-value": [0],
+    "react/jsx-key": [1], // Need to change it to error after informing team
+    "react/no-unescaped-entities": [1], // Need to change it to error after informing team
+    "new-cap": [0],
+    "max-depth": ["error", 5],
+    "max-params": ["error", 6],
+    "react/forbid-prop-types": [0],
+    "react/display-name": [0],
+    "react/no-find-dom-node": [0],
+    "react/no-deprecated": [0],
+    "max-len": ["warn", 100],
+    "array-callback-return": [2],
+    "no-mixed-operators": [2],
+    "eqeqeq": [2],
+    "no-unused-vars": [1], // Need to change it to error after informing team
+    "no-trailing-spaces": [
+      "error",
+      {
+        "ignoreComments": true,
+        "skipBlankLines": true
+      }
+    ],
+    "semi": "error",
+    "key-spacing": "error",
+    "object-curly-spacing": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "space-infix-ops": "error",
+    "space-unary-ops": "error",
+    "computed-property-spacing": ["error", "never"],
+    "arrow-spacing": "error",
+    "no-debugger": "warn",
+    "id-length": [1, { "min": 3, "properties": "never", "exceptions": ["id"] }]
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "build",
+    "config",
+    "scripts",
+    "src/**/*.test.ts*",
+    "src/thirdparty.ts",
+    "src/**/*.d.ts"
+  ]
+}

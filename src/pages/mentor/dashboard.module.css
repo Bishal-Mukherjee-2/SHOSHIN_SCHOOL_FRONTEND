@@ -1,0 +1,232 @@
+.infoDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+/* doubt card */
+
+.doubtCardBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+  width: 476px;
+  height: 520px;
+}
+
+.NoDoubtCard {
+  text-align: center;
+  padding: 45px 63px 62px 63px;
+}
+
+.nodoubtHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 62px;
+  margin-bottom: 20px;
+}
+
+.nodoubtSubHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.nodoubtButton {
+  border: 1px solid #19686b;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 143px;
+  height: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #19686b;
+  justify-content: center;
+  margin-top: 62px;
+  margin-left: 35%;
+  cursor: pointer;
+}
+
+.DoubtCard {
+  padding: 24px 26px 39px 26px;
+  /* padding: 62px 63px 62px 63px; */
+}
+
+.doubtUpperBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doubtLeftBox {
+}
+
+.doubtRightBox {
+  width: 150px;
+  height: 181px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 14px 20px 14px 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.doubtHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 36px;
+}
+
+.doubtquesHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid #19686b;
+  width: fit-content;
+  margin-bottom: 4px;
+}
+
+.doubtquesSubHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 12px;
+}
+
+.doubt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.studentName {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+
+.smallHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.marks {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+.question {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 36px;
+}
+
+.doubtBelowBox {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doubtButtonBox {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.read {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fa983f;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.time {
+  color: #19686b;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.doubtLightButton {
+  width: 94px;
+  height: 36px;
+  border: 1px solid #19686b;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  background-color: white;
+  color: #19686b;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.doubtDarkButton {
+  width: 94px;
+  height: 36px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  background: #19686b;
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid #19686b;
+  cursor: pointer;
+}
